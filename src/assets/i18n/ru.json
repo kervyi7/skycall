@@ -1,0 +1,80 @@
+{
+    "NAV": {
+        "HOME": "Главная",
+        "ABOUT": "О Нас",
+        "FEATURES": "Функции",
+        "WISH_LIST": "Список желаний",
+        "PRICING": "Цены",
+        "CONTACT_US": "Контакты",
+        "BUTTON_RU": "Рус",
+        "BUTTON_ENG": "Англ"
+    },
+    "HOME": {
+        "DO_YOU_EVER": "A Вы думали о простых звонках?",
+        "WE_ARE_GOING_TO": "Мы запускаем",
+        "HING_THAT_HELP": " продукт который понравится всем...",
+        "DOWNLOAD_APP_GOOGLE": "Скачать для Google Chrome"
+    },
+    "ABOUT": {
+        "WE_ARE_SKYCALL": "SKYCALL",
+        "THE_BEST_SIP-PHONE": "Лучший SIP-Phone плагин",
+        "FOR_GOOGLE_CHROME": " для Google Chrome",
+        "THE_GOOGLE_CHROME": "Расширение для браузера Google Chrome - это отличный помощник для Вас и сотрудников Вашей компании. Благодаря ему, независимо от того, какой тип web-CRM Вы используете, Вы сможете отслеживать звонки, прослушивать записи звонков, быстро находить интересующую информацию о звонках. Всплывающие уведомления с именем звонящего, исходящий звонок по нажатию на телефонный номер сэкономит Вам много времени и повысит уровень обслуживания Вашей компании.",
+        "MISSED_CALLS_INDICATOR": "Уведомления о пропущеных звонках",
+        "iNCOMING_CALLS_NOTIFICATIONS": "Уведомления о входящих звонках",
+        "CALLS_FILTER_AND_SEARCH": "Быстрый и удобный поиск звонков "
+    },
+    "FEATURES": {
+        "OUR_FEATURES": "ФУНКЦИИ",
+        "OPPORTUNITIES": "Возможности плагина",
+        "SKYCALL_SIP-PHONE_PLUGIN": "SkyCall",
+        "CALL_LOG": "История звонков,",
+        "CONTROL": " Контроль пропущеных звонков",
+        "TEXT1": "1Р_Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla iaculis vitae. Donec sagittis faucibus lacus eget blandit. Mauris vitae ultricies metus, at condimentum nulla. Donec quis ornare lacus. Etiam gravida mollis tortor quis porttitor.",
+        "TEXT2": "2Р_Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla iaculis vitae. Donec sagittis faucibus lacus eget blandit. Mauris vitae ultricies metus, at condimentum nulla. Donec quis ornare lacus. Etiam gravida mollis tortor quis porttitor.",
+        "TEXT3": "3Р_Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla iaculis vitae. Donec sagittis faucibus lacus eget blandit. Mauris vitae ultricies metus, at condimentum nulla. Donec quis ornare lacus. Etiam gravida mollis tortor quis porttitor.",
+        "INTERNAL_NUMBERS": "Бессплатные внутренние",
+        "AND_FREE": "звонки",
+        "ANALITICS": "Аналитика,",
+        "MONITORING": "Мониторинг и Отчетность"
+    },
+    "PRICING": {
+        "PRICING": "ЦЕНЫ",
+        "HELP_YOUR_TEAM": "Упростите работу своим сотрудникам со SkyCall"
+    },
+    "WISH_LIST": {
+        "WISH_LIST": "СПИСОК ЖЕЛАНИЙ",
+        "HAVE_YOU_ANY_WISHES": "О чем Вы всегда желали?",
+        "SKYCALL_SIP-PHONE_PLUGIN": "все это может SkyCall",
+        "VIEW_FULL_LIST": "Открыть весь список",
+        "SEND_YOUR_WISH": "Добавить пожелание",
+        "YOUR_NAME": "Имя",
+        "YOUR_EMAIL": "E-mail",
+        "YOUR_WISH": "Напишите чтобы Вы хотели добавить",
+        "SEND_COMMMENT": "Отправить"
+    },
+    "CONTACT_US": {
+        "CONTACT_US": "Контакты",
+        "IF_YOU_HAVE_QUESTIONS": "Остались ли у Вас вопросы",
+        "ABOUT_SKYCALL": "о SkyCall?",
+        "DOWNLOAD_IN_GOOGLE": "Скачать для Google Chrome",
+        "MORE_ABOUT": "Больше о SkyCall в GitHub",
+        "COMING_SOON": "Совсем скоро и для...",
+        "CONTACT_FORM": "ОБРАТНАЯ СВЯЗЬ",
+        "YOUR_NAME": "Имя",
+        "YOUR_EMAIL": "E-mail",
+        "YOUR_TEXT_HERE": "Ваше сообщение",
+        "SEND_MESSAGE": "Отправить",
+        "HOME": "На главную",
+        "ABOUT": "О Нас",
+        "FEATURES": "Функции",
+        "SERVICE_POLL": "Список желаний",
+        "PRICING": "Цены",
+        "TERMS": "Условия использования",
+        "PRIVACY": "Политика конфиденциальности",
+        "CUSTOMER": "Политика в отношении жалоб клиентов",
+        "RIGHTS_RESERVED": "© 2019 SKYCALL. Сделано с ♡ командой libo_system. Все права защищены.",
+        "NUMBER": "+380 (93) 537-30-51",
+        "EMAIL": "skycall@gmail.com"
+    }
+}

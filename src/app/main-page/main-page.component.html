@@ -1,0 +1,113 @@
+<div class="master">
+  <mat-toolbar [@openClose]="getState()" class="toolbar-color">
+    <div class="link-block-object">
+      <img src="./assets/img/skycall_logo.svg" class="object" />
+      <div class="link-block">
+        <button mat-button [ngx-scroll-to]="homeRef" class="link" [ngClass]="{'link-select': isSelected('Home')}"
+          (click)="selectLink('Home')">{{'NAV.HOME' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="aboutRef" [ngx-scroll-to-offset]="-70" class="link"
+          [ngClass]="{'link-select': isSelected('About')}"
+          (click)="selectLink('About')">{{'NAV.ABOUT' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="featuresRef" [ngx-scroll-to-offset]="-70" class="link"
+          [ngClass]="{'link-select': isSelected('Features')}"
+          (click)="selectLink('Features')">{{'NAV.FEATURES' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="pricingRef" [ngx-scroll-to-offset]="-70" class="link"
+          [ngClass]="{'link-select': isSelected('Pricing')}"
+          (click)="selectLink('Pricing')">{{'NAV.PRICING' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="wishListRef" [ngx-scroll-to-offset]="-70" class="link"
+          [ngClass]="{'link-select': isSelected('Wish list')}"
+          (click)="selectLink('Wish list')">{{'NAV.WISH_LIST' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="contactUsRef" [ngx-scroll-to-offset]="-70" class="link"
+          [ngClass]="{'link-select': isSelected('Contact us')}"
+          (click)="selectLink('Contact us')">{{'NAV.CONTACT_US' | translate}}</button>
+
+        <button mat-button class="language" (click)="changeTranslate('en')">{{'NAV.BUTTON_ENG' | translate}}</button>
+        <button mat-button class="language" (click)="changeTranslate('ru')">{{'NAV.BUTTON_RU' | translate}}</button>
+      </div>
+    </div>
+  </mat-toolbar>
+
+  <mat-toolbar class="toolbar">
+    <div class="link-block-object">
+      <img src="./assets/img/skycall_logo_blue.svg" class="object" />
+      <div class="link-block">
+        <button mat-button [ngx-scroll-to]="homeRef" class="link" [ngClass]="{'link-select': isSelected('Home')}"
+          (click)="selectLink('Home')">{{'NAV.HOME' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="aboutRef" [ngx-scroll-to-offset]="-70" class="link"
+          [ngClass]="{'link-select': isSelected('About')}"
+          (click)="selectLink('About')">{{'NAV.ABOUT' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="featuresRef" [ngx-scroll-to-offset]="-70" class="link"
+          [ngClass]="{'link-select': isSelected('Features')}"
+          (click)="selectLink('Features')">{{'NAV.FEATURES' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="pricingRef" [ngx-scroll-to-offset]="-70" class="link"
+          [ngClass]="{'link-select': isSelected('Pricing')}"
+          (click)="selectLink('Pricing')">{{'NAV.PRICING' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="wishListRef" [ngx-scroll-to-offset]="-70" class="link"
+          [ngClass]="{'link-select': isSelected('Wish list')}"
+          (click)="selectLink('Wish list')">{{'NAV.WISH_LIST' | translate}}</button>
+        <button mat-button [ngx-scroll-to]="contactUsRef" [ngx-scroll-to-offset]="-70" class="link"
+          [ngClass]="{'link-select': isSelected('Contact us')}"
+          (click)="selectLink('Contact us')">{{'NAV.CONTACT_US' | translate}}</button>
+
+        <button mat-button class="language" (click)="changeTranslate('en')">{{'NAV.BUTTON_ENG' | translate}}</button>
+        <button mat-button class="language" (click)="changeTranslate('ru')">{{'NAV.BUTTON_RU' | translate}}</button>
+      </div>
+    </div>
+
+  </mat-toolbar>
+  <div id="content">
+    <div #homeRef>
+      <app-header-page></app-header-page>
+    </div>
+    <div #aboutRef>
+      <app-description-page></app-description-page>
+    </div>
+    <div #featuresRef>
+      <app-features-page></app-features-page>
+    </div>
+    <div #pricingRef>
+      <app-pricing-page></app-pricing-page>
+    </div>
+    <div #wishListRef>
+      <app-wish-list></app-wish-list>
+    </div>
+    <div #contactUsRef>
+      <app-contact-page></app-contact-page>
+    </div>
+    <div class="bottom-part-block">
+      <div class="bottom-part">
+        <div>
+          <img src="./assets/img/skycall_logo.svg" />
+        </div>
+        <div>
+          <div [ngx-scroll-to]="homeRef" (click)="selectLink('Home')" [ngx-scroll-to-offset]="-70" class="bottom-text">
+            {{'CONTACT_US.HOME' | translate}}</div><br />
+          <div [ngx-scroll-to]="aboutRef" (click)="selectLink('About')" [ngx-scroll-to-offset]="-70"
+            class="bottom-text">
+            {{'CONTACT_US.ABOUT' | translate}}</div><br />
+          <div [ngx-scroll-to]="featuresRef" (click)="selectLink('Features')" [ngx-scroll-to-offset]="-70"
+            class="bottom-text">
+            {{'CONTACT_US.FEATURES' | translate}}</div>
+        </div>
+        <div>
+          <div (click)="selectLink('')" class="bottom-text">{{'CONTACT_US.SERVICE_POLL' | translate}}</div><br />
+          <div [ngx-scroll-to]="pricingRef" (click)="selectLink('Pricing')" [ngx-scroll-to-offset]="-70"
+            class="bottom-text">
+            {{'CONTACT_US.PRICING' | translate}}</div><br />
+          <div [ngx-scroll-to]="contactUsRef" (click)="selectLink('Contact us')" [ngx-scroll-to-offset]="-70"
+            class="bottom-text">
+            {{'CONTACT_US.CONTACT_US' | translate}}</div>
+        </div>
+        <div>
+          <div> <a href=" https://docs.google.com/document/d/1A-2DvptleacBRWR7ldWe_jKAVcAB85IQSrDSp0rBcdA" class="bottom-text">{{'CONTACT_US.TERMS' | translate}}</a></div><br />
+          <div ><a href="https://docs.google.com/document/d/1NsvpVFFLMpzpybf3qmTD5zQQ6x2_XR_nQp49d2pnJTY" class="bottom-text">{{'CONTACT_US.PRIVACY' | translate}}</a></div><br />
+        </div>
+        <div>
+            <div><a href="mailto:skycall@gmail.com" class="bottom-text">{{'CONTACT_US.EMAIL' | translate}}</a></div><br />
+            <div><a href="callto:+380935373051" class="bottom-text">{{'CONTACT_US.NUMBER' | translate}}</a></div><br />
+        </div>
+      </div>
+      <div class="bottom-rights">{{'CONTACT_US.RIGHTS_RESERVED' | translate}}</div>
+    </div>
+  </div>
+</div>

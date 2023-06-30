@@ -1,0 +1,13 @@
+<div class="main-block">
+  <div class="pricing-text1">
+    {{'PRICING.PRICING' | translate}}
+  </div>
+  <div class="pricing-text2">
+    {{'PRICING.HELP_YOUR_TEAM' | translate}}
+  </div>
+</div>
+<div class="price-block">
+  <app-price-view [priceView]="priceView1" (priceViewClick)="priceClick($event)"></app-price-view>
+  <app-price-view [priceView]="priceView2" (priceViewClick)="priceClick($event)"></app-price-view>
+  <app-price-view [priceView]="priceView3" (priceViewClick)="priceClick($event)"></app-price-view>
+</div>

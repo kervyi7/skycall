@@ -1,0 +1,20 @@
+<div class="header">
+  <b>{{priceView.headerName}}</b>
+</div>
+<div *ngFor="let specification of priceView.specifications" class="specification-block">
+  <div [ngClass]="specification.isSupport ? 'support-icon' : 'not-support-icon'">
+    <mat-icon class="icons">{{getIconName(specification.isSupport)}}</mat-icon>
+  </div>
+  <div [ngClass]="specification.isSupport ? 'support-text' : 'not-support-text'">
+    <span>
+      {{specification.description}}
+    </span>
+  </div>
+</div>
+<div class="separator">
+  <div class="price-block">
+    <span class="price"><b>{{priceView.price}}</b></span>
+    <span class="price-description">{{priceView.priceDescription}}</span>
+  </div>
+  <button mat-raised-button class="price-button" (click)="clickPriceButton()">{{priceView.priceButtonName}}</button>
+</div>

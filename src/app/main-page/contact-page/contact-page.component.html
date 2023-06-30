@@ -1,0 +1,38 @@
+<div class="main-block">
+  <div>
+    <span class="contact-text1">{{'CONTACT_US.CONTACT_US' | translate}}</span>
+    <div class="contact-text2">{{'CONTACT_US.IF_YOU_HAVE_QUESTIONS' | translate}}</div>
+    <div class="contact-text2">{{'CONTACT_US.ABOUT_SKYCALL' | translate}}</div>
+    <div class="download-block1">
+      <img src="./assets/img/shape7.svg" />
+      <div class="contact-text3">{{'CONTACT_US.DOWNLOAD_IN_GOOGLE' | translate}}</div>
+    </div>
+    <div class="download-block2">
+      <img src="./assets/img/shape8.svg" />
+      <div class="contact-text3">{{'CONTACT_US.MORE_ABOUT' | translate}}</div>
+    </div>
+    <div class="contact-text4">{{'CONTACT_US.COMING_SOON' | translate}}</div>
+    <div class="downloud-img-block">
+      <img src="./assets/img/downloadimg.svg" class="downloud-img" />
+    </div>
+  </div>
+  <div class="contact-form-block">
+    <form #contactForm="ngForm" (ngSubmit)="onSave()">
+      <div class="name-block">{{'CONTACT_US.CONTACT_FORM' | translate}}</div>
+      <div class="input-block">
+        <mat-form-field class="matInput"><input matInput type="text"
+            placeholder="{{'CONTACT_US.YOUR_NAME' | translate}}" [(ngModel)]="userContact.name" name="name"
+            required /></mat-form-field>
+        <mat-form-field class="matInput"><input matInput type="email"
+            placeholder="{{'CONTACT_US.YOUR_EMAIL' | translate}}" [(ngModel)]="userContact.email" name="email"
+            required /></mat-form-field>
+        <mat-form-field class="matInput"><input matInput type="email"
+            placeholder="{{'CONTACT_US.YOUR_TEXT_HERE' | translate}}" [(ngModel)]="userContact.text" name="text" required
+            maxlength="120" /></mat-form-field>
+        <button mat-raised-button class="send-message-button" type="submit"
+          [disabled]="contactForm.invalid">{{'CONTACT_US.SEND_MESSAGE' | translate}}
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

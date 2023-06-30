@@ -1,0 +1,118 @@
+:host {
+    background: linear-gradient(to top,#341D62, #673085);
+    width: 100%;
+    display: block;
+    padding-bottom: 100px;
+    padding-top: 80px;
+}
+
+.main-block {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+} 
+
+.contact-text1 {
+    line-height: 36px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    mix-blend-mode: normal;
+    opacity: 0.84;
+    margin-bottom: 35px;
+}
+
+.contact-text2 {
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 80px;
+}
+
+.download-block1 {
+    align-items: center;
+    margin-top: 74px;
+    width: 340px;
+    display: flex;
+}
+
+.contact-text3 {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-left: 10%;
+}
+
+.download-block2 {
+    align-items: center;
+    margin-top: 74px;
+    width: 293px;
+    display: flex;
+}
+
+.contact-text4 {
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-top: 53px;
+}
+
+.downloud-img-block {
+    margin-top: 37px; 
+}
+
+.contact-form-block {
+    background-color: #FFFFFF;
+    width: 538px;
+    height: 488px;
+    border-radius: 11px;
+    box-shadow: rgb(238, 238, 238) 0px 0px 50px 1px;
+}
+
+.name-block {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #4B2B8D;
+    mix-blend-mode: normal;
+    opacity: 0.84;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 68px;
+    margin-top: 38px;
+    margin-bottom: 45px;
+    font-weight: bold;
+}
+
+.inputs {
+    height: 194px;
+}
+
+.send-message-button {
+    background: linear-gradient( #7623AE, #C86DD7);
+    border-radius: 22.5px;
+    color: #FFFFFF; 
+}
+
+.send-message-button:disabled {
+    background: grey;
+    color: #FFFFFF; 
+}
+
+.matInput {
+    width: 100%;
+    color: #7623AE;
+    display: block;
+    min-width: 300px;
+    margin-bottom: 40px;
+}
+
+.input-block{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    align-items: flex-end;
+}

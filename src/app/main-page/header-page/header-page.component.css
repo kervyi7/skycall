@@ -1,0 +1,60 @@
+:host {
+    background-image: url(src\assets\img\main_screen.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-size: cover;
+    display: block;
+    height: -webkit-fill-available;
+    width: 100%;
+}
+
+.main-block {
+    width: 90%;
+    margin: auto;
+}
+
+.head-text {
+    margin-top: 110px;
+    width: 511px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head-text1 {
+    color: #4A4A4A;
+    height: 37px;
+    font-size: 14px;
+}
+
+.head-text2 {
+    color: #4B2B8D;
+    font-size: 35px;
+    line-height: 55px;
+    min-width: 450px;
+}
+
+.head-text3 {
+    color: white;
+    height: 45px;
+    width: 171px;
+    font-size: 10px;
+}
+
+.app-google {
+    background: linear-gradient(165.12deg, #7623AE 0%, #C86DD7 101.5%);
+    border-radius: 22.5px;
+    margin-top: 40px;
+}
+
+.macbook {
+    width: 90%;
+    min-width: 600px;
+    margin-left: 15%;
+    margin-top: 68px;
+}
+
+.text-img {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}

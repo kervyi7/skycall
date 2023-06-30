@@ -1,0 +1,80 @@
+{
+    "NAV": {
+        "HOME": "Home",
+        "ABOUT": "About",
+        "FEATURES": "Features",
+        "WISH_LIST": "Wish list",
+        "PRICING": "Pricing",
+        "CONTACT_US": "Contact us",
+        "BUTTON_RU": "RU",
+        "BUTTON_ENG": "ENG"
+    },
+    "HOME": {
+        "DO_YOU_EVER": "DO YOU EVER WORRY ABOUT?",
+        "WE_ARE_GOING_TO": "We are going to launch",
+        "HING_THAT_HELP": " hing that help to improve…",
+        "DOWNLOAD_APP_GOOGLE": "Download App Google"
+    },
+    "ABOUT": {
+        "WE_ARE_SKYCALL": "WE ARE SKYCALL",
+        "THE_BEST_SIP-PHONE": "The best SIP-Phone plugin",
+        "FOR_GOOGLE_CHROME": " for Google Chrome",
+        "THE_GOOGLE_CHROME": "The Google Chrome browser extension is a personal assistant for you and your company's employees. Thanks to the extension, regardless of what kind of web CRM you use, you can monitor calls that you need to call back, listen to call records, quickly find interesting information on calls. Pop-up notifications with the caller's name, dialing by clicking on a phone number will save a lot of your time and increase the level of service for your company.",
+        "MISSED_CALLS_INDICATOR": "Missed calls indicator",
+        "iNCOMING_CALLS_NOTIFICATIONS": "Incoming calls Notifications",
+        "CALLS_FILTER_AND_SEARCH": "Calls Filter and search "
+    },
+    "FEATURES": {
+        "OUR_FEATURES": "OUR FEATURES",
+        "OPPORTUNITIES": "Opportunities",
+        "SKYCALL_SIP-PHONE_PLUGIN": " SkyCall SIP-Phone plugin",
+        "CALL_LOG": "Call log,",
+        "CONTROL": " control missed Calls",
+        "TEXT1": "1Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla iaculis vitae. Donec sagittis faucibus lacus eget blandit. Mauris vitae ultricies metus, at condimentum nulla. Donec quis ornare lacus. Etiam gravida mollis tortor quis porttitor.",
+        "TEXT2": "2Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla iaculis vitae. Donec sagittis faucibus lacus eget blandit. Mauris vitae ultricies metus, at condimentum nulla. Donec quis ornare lacus. Etiam gravida mollis tortor quis porttitor.",
+        "TEXT3": "3Vestibulum rutrum quam vitae fringilla tincidunt. Suspendisse nec tortor urna. Ut laoreet sodales nisi, quis iaculis nulla iaculis vitae. Donec sagittis faucibus lacus eget blandit. Mauris vitae ultricies metus, at condimentum nulla. Donec quis ornare lacus. Etiam gravida mollis tortor quis porttitor.",
+        "INTERNAL_NUMBERS": "Internal numbers",
+        "AND_FREE": "and free connection",
+        "ANALITICS": "Analytics,",
+        "MONITORING": "monitoring and reports"
+    },
+    "PRICING": {
+        "PRICING": "PRICING",
+        "HELP_YOUR_TEAM": "Help your team do work simply with SkyCall SIP-Phone"
+    },
+    "WISH_LIST": {
+        "WISH_LIST": "Wish list",
+        "HAVE_YOU_ANY_WISHES": "Have you any wishes about",
+        "SKYCALL_SIP-PHONE_PLUGIN": " SkyCall SIP-Phone plugin?",
+        "VIEW_FULL_LIST": "View full list",
+        "SEND_YOUR_WISH": "Send your Wish",
+        "YOUR_NAME": "Your Name",
+        "YOUR_EMAIL": "Your E-mail",
+        "YOUR_WISH": "Your Wish",
+        "SEND_COMMMENT": "Send comment"
+    },
+    "CONTACT_US": {
+        "CONTACT_US":"Contact us",
+        "IF_YOU_HAVE_QUESTIONS": "If you have any questions",
+        "ABOUT_SKYCALL":"about SkyCall SIP-Phone plugin",
+        "DOWNLOAD_IN_GOOGLE": "Download in Google Chrome Store",
+        "MORE_ABOUT": "More about SkyCall in Github",
+        "COMING_SOON": "Coming soon for…",
+        "CONTACT_FORM": "CONTACT FORM",
+        "YOUR_NAME": "Your Name",
+        "YOUR_EMAIL": "Your E-mail",
+        "YOUR_TEXT_HERE": "Your Text Here",
+        "SEND_MESSAGE": "Send Message",
+        "HOME": "Home",
+        "ABOUT": "About",
+        "FEATURES": "Features",
+        "SERVICE_POLL": "Service Poll",
+        "PRICING": "Pricing",
+        "TERMS": "Terms of Use",
+        "PRIVACY": "Privacy Policy",
+        "CUSTOMER": "Customer Complaint Policy",
+        "RIGHTS_RESERVED": "© 2019 SKYCALL. Made with ♡ libo_system team. All rights reserved.",
+        "NUMBER": "+380 93 537 3051",
+        "EMAIL": "skycall@gmail.com"
+    }
+}

@@ -1,0 +1,48 @@
+<div class="wish-list-block">
+  <div class="section-name">{{'WISH_LIST.WISH_LIST' | translate}}</div>
+  <div class="header-name">{{'WISH_LIST.HAVE_YOU_ANY_WISHES' | translate}}</div>
+  <div class="header-name">{{'WISH_LIST.SKYCALL_SIP-PHONE_PLUGIN' | translate}}</div>
+  <table class="wish-list-table">
+    <tbody>
+      <tr *ngFor="let wish of wishList.wishes" class="wish-list-row">
+        <td class="wish-text">
+          <div class="wish-number">
+            {{wish.number}}.
+          </div>
+          {{wish.text}}
+        </td>
+        <td>
+          <button mat-icon-button (click)="toAdd(wish)">
+            <mat-icon class="add-icon">add_circle</mat-icon>
+          </button>
+        </td>
+        <td>
+          <button mat-icon-button (click)="toRemove(wish)">
+            <mat-icon class="remove-icon">remove_circle_outline</mat-icon>
+          </button>
+
+        </td>
+        <td class="wish-result">{{wish.result}}</td>
+    </tbody>
+  </table>
+  <div class="full-list-button">{{'WISH_LIST.VIEW_FULL_LIST' | translate}}</div>
+  <form class="form" #wishForm="ngForm" (ngSubmit)="onSave()">
+    <div class="form-name">{{'WISH_LIST.SEND_YOUR_WISH' | translate}}</div>
+    <div class="input-block">
+      <div class="inputs">
+        <mat-form-field class="matInput"><input matInput type="text" placeholder="{{'WISH_LIST.YOUR_NAME' | translate}}"
+            [(ngModel)]="userWish.name" name="name" required /></mat-form-field>
+        <mat-form-field class="matInput"><input matInput type="text"
+            placeholder="{{'WISH_LIST.YOUR_EMAIL' | translate}}" [(ngModel)]="userWish.wish" name="wish" required
+            maxlength="120" /></mat-form-field>
+      </div>
+      <div class="input-sub-block-right">
+        <mat-form-field class="matInput"><input matInput type="email"
+            placeholder="{{'WISH_LIST.YOUR_WISH' | translate}}" [(ngModel)]="userWish.email" name="email" required />
+        </mat-form-field>
+        <button mat-raised-button class="send-comment-button" type="submit"
+          [disabled]="wishForm.invalid">{{'WISH_LIST.SEND_COMMMENT' | translate}}</button>
+      </div>
+    </div>
+  </form>
+</div>
