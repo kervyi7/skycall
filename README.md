@@ -13,7 +13,6 @@ This is the landing page of the SkyCall project developed by a designer and fron
 - TypeScript
 - Angular 7.1.4
 - Angular Material
-- Microsoft Azure
 
 ## Duties:
 
@@ -23,5 +22,4 @@ This is the landing page of the SkyCall project developed by a designer and fron
 
 - Improved my skills in using Angular.
 - Worked with third party libraries
-- Gained an understanding of working with clients.
 - Gained an understanding of teamwork.
